@@ -22,6 +22,9 @@
 		C92DED72192A8E750089077B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92DED56192A8E750089077B /* CoreData.framework */; };
 		C92DED7A192A8E750089077B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92DED78192A8E750089077B /* InfoPlist.strings */; };
 		C92DED7C192A8E750089077B /* CustomAlertForFFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C92DED7B192A8E750089077B /* CustomAlertForFFTests.m */; };
+		C92DED87192A8E8D0089077B /* MJVCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C92DED86192A8E8D0089077B /* MJVCustomAlert.m */; };
+		C92DED8A192AA01E0089077B /* UIFont+Museo49ers.m in Sources */ = {isa = PBXBuildFile; fileRef = C92DED89192AA01E0089077B /* UIFont+Museo49ers.m */; };
+		C92DED8D192AA4E30089077B /* UIColor+FTN.m in Sources */ = {isa = PBXBuildFile; fileRef = C92DED8C192AA4E30089077B /* UIColor+FTN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		C92DED77192A8E750089077B /* CustomAlertForFFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomAlertForFFTests-Info.plist"; sourceTree = "<group>"; };
 		C92DED79192A8E750089077B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C92DED7B192A8E750089077B /* CustomAlertForFFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertForFFTests.m; sourceTree = "<group>"; };
+		C92DED85192A8E8D0089077B /* MJVCustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJVCustomAlert.h; sourceTree = "<group>"; };
+		C92DED86192A8E8D0089077B /* MJVCustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJVCustomAlert.m; sourceTree = "<group>"; };
+		C92DED88192AA01E0089077B /* UIFont+Museo49ers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Museo49ers.h"; sourceTree = "<group>"; };
+		C92DED89192AA01E0089077B /* UIFont+Museo49ers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Museo49ers.m"; sourceTree = "<group>"; };
+		C92DED8B192AA4E30089077B /* UIColor+FTN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FTN.h"; sourceTree = "<group>"; };
+		C92DED8C192AA4E30089077B /* UIColor+FTN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FTN.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 		C92DED58192A8E750089077B /* CustomAlertForFF */ = {
 			isa = PBXGroup;
 			children = (
+				C92DED8B192AA4E30089077B /* UIColor+FTN.h */,
+				C92DED8C192AA4E30089077B /* UIColor+FTN.m */,
+				C92DED88192AA01E0089077B /* UIFont+Museo49ers.h */,
+				C92DED89192AA01E0089077B /* UIFont+Museo49ers.m */,
 				C92DED61192A8E750089077B /* MJVAppDelegate.h */,
 				C92DED62192A8E750089077B /* MJVAppDelegate.m */,
+				C92DED85192A8E8D0089077B /* MJVCustomAlert.h */,
+				C92DED86192A8E8D0089077B /* MJVCustomAlert.m */,
 				C92DED67192A8E750089077B /* Images.xcassets */,
 				C92DED64192A8E750089077B /* CustomAlertForFF.xcdatamodeld */,
 				C92DED59192A8E750089077B /* Supporting Files */,
@@ -252,6 +267,9 @@
 				C92DED66192A8E750089077B /* CustomAlertForFF.xcdatamodeld in Sources */,
 				C92DED63192A8E750089077B /* MJVAppDelegate.m in Sources */,
 				C92DED5F192A8E750089077B /* main.m in Sources */,
+				C92DED8A192AA01E0089077B /* UIFont+Museo49ers.m in Sources */,
+				C92DED8D192AA4E30089077B /* UIColor+FTN.m in Sources */,
+				C92DED87192A8E8D0089077B /* MJVCustomAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
